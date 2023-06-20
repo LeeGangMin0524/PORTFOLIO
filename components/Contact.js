@@ -4,24 +4,24 @@ import { contact } from '@/data/config';
 export default function Stack() {
   return (
     <div>
-      <div className="overflow-x-hidden w-full">
-        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max ">
+      <div className="w-full overflow-x-hidden">
+        <h2 className="relative mx-0 mb-4 text-left landingSectionTitle max-w-max md:w-max ">
           {contact.title}
         </h2>
       </div>
       <p>
         Shoot me an email:{' '}
         <a
-          className="dark:text-white text-black transition-colors duration-500"
+          className="text-black transition-colors duration-500 dark:text-white"
           href={`mailto:${contact.email}`}
         >
           {contact.email}
         </a>
       </p>
-      <div className="flex space-x-5 mt-5 text-lightText transition-colors duration-500">
+      <div className="flex mt-5 space-x-5 transition-colors duration-500 text-lightText">
         {contact.github && (
           <a
-            href={`https://github.com/${contact.github}`}
+            href={`https://github.com/LeeGangMin0524`}
             target="_blank"
             rel="noreferrer"
           >

@@ -1,40 +1,39 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
+  title: '이강민 - 포트폴리오 사이트', // 웹 페이지 이름 수정
 }
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "이강민",
+  desc: "Game developer"
 };
 
 export const projects = {
-  title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  title: 'Game Project',
+  desc: "개발한 프로젝트 목록",
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
+      title: '2022년 2학기 프로젝트',
+      description: 'Game build Team project GreenPeer',
+      link: 'https://www.youtube.com/watch?v=H2Up1NORcT8&ab_channel=MenMen',
       github: ''
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
+      title: '2023년 1학기 프로젝트',
+      description: 'Gaem build Team project THE Summit',
+      link: 'https://www.youtube.com/watch?v=oJPqZSLbzAM',
+      github: ''
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: '연락처',
+      description: '010-5584-7978',
+      link: '',
+      github: ''
     }
   ]
 };
 
 export const stack = {
-  title: 'My Stack',
+  title: 'Language used',
   stack: [
     'HTML',
     'CSS',
@@ -43,15 +42,16 @@ export const stack = {
     'React',
     'NextJS',
     'TailwindCSS',
-    'Firebase',
+    'C#',
+    'C++',
     'Git'
   ]
 };
 
 export const contact = {
   title: 'Contact Me',
-  email: 'lebron@gmail.com',
+  email: 'wkdbwjr21@gmail.com',
   github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  dribbble: '',
+  linkedin: ''
 };
